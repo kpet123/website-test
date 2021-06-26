@@ -1,2 +1,4 @@
 # website-test
-testing website 
+
+
+Directions for publishing: https://pages.github.com/
