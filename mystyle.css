@@ -1,6 +1,6 @@
 body {
 
-	background-color: yellow;
+	background-color: #63a7b8;
 }
 
 h1 {
@@ -24,7 +24,7 @@ jumbotron text-center {
 }
 #entry {
   padding: 15px;
-  background-color: green;
+  background-color: #91dbc2;
   transition: transform .2s; /* Animation */
   border-radius: 10px;
   margin: 15 auto;
@@ -37,4 +37,45 @@ jumbotron text-center {
 
 #section_header{
 	text-align: center;
+	color: blue;
+}
+
+#navbar{
+	text-align: center;
+	background-color: lightblue;
+	margin: 15px auto;
+	padding: 5px;
+}
+#menu-item{
+	color: black;
+	transition: transform .2s;
+}
+#menu-item:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  background-color: #91dbc2;
+  border-style: solid;
+  border-color: #ad7b5e;
+  border-radius: 5px;
+}
+#active-menu-item{
+	color: black;
+	transition: transform .3s;
+    border-style: none;
+    border-radius: 5px;
+    background-color:#e3bfaa;
+}
+#active-menu-item:hover {
+  transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+  background-color: #91dbc2;
+  border-style: solid;
+  border-color: #ad7b5e;
+  border-radius: 5px;
+}
+
+div.footer{
+padding: 60px;
+background-color: lightgray;
+border-style:ridge none none none;
+border-color: gray;
+
 }
