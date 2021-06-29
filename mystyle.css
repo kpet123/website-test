@@ -1,0 +1,40 @@
+body {
+
+	background-color: yellow;
+}
+
+h1 {
+
+	color: blue;
+
+}
+
+jumbotron text-center {
+
+	color:red;
+
+}
+
+#entry {
+
+	padding: 15px;
+	background-color: green;
+	margin: 10px; 
+	border-radius: 10px;
+}
+#entry {
+  padding: 15px;
+  background-color: green;
+  transition: transform .2s; /* Animation */
+  border-radius: 10px;
+  margin: 15 auto;
+}
+
+#entry:hover {
+  transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
+#section_header{
+	text-align: center;
+}
