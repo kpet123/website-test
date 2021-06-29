@@ -1,6 +1,6 @@
 body {
 
-	background-color: #63a7b8;
+	background-color: #d9effa;
 }
 
 h1 {
@@ -16,34 +16,36 @@ jumbotron text-center {
 }
 
 #entry {
-
-	padding: 15px;
-	background-color: green;
-	margin: 10px; 
-	border-radius: 10px;
-}
-#entry {
-  padding: 15px;
-  background-color: #91dbc2;
+  padding:30px;
+  margin:40px;
+  margin-right:40px;
+  margin-left:60px;
+  background-color: #fcefca;
   transition: transform .2s; /* Animation */
   border-radius: 10px;
-  margin: 15 auto;
+
 }
 
 #entry:hover {
   transform: scale(1.05); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
 }
+#entry-holder{
+background-color:lightblue;
 
-
+}
+#media{
+margin:40px;
+}
 #section_header{
 	text-align: center;
-	color: blue;
+	color: coral;
+	padding: 60px;
 }
 
 #navbar{
-	text-align: center;
+    text-align: center;
 	background-color: lightblue;
-	margin: 15px auto;
+    margin:15px auto;
 	padding: 5px;
 }
 #menu-item{
@@ -52,7 +54,7 @@ jumbotron text-center {
 }
 #menu-item:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  background-color: #91dbc2;
+  background-color: #fcefca;
   border-style: solid;
   border-color: #ad7b5e;
   border-radius: 5px;
@@ -62,20 +64,23 @@ jumbotron text-center {
 	transition: transform .3s;
     border-style: none;
     border-radius: 5px;
-    background-color:#e3bfaa;
+    background-color:lightgray;
 }
 #active-menu-item:hover {
   transform: scale(1.1); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
-  background-color: #91dbc2;
+  background-color: #fcefca;
   border-style: solid;
   border-color: #ad7b5e;
   border-radius: 5px;
 }
 
-div.footer{
-padding: 60px;
+footer{
+text-align:center;
 background-color: lightgray;
 border-style:ridge none none none;
 border-color: gray;
-
+position: fixed;
+left:0;
+bottom:0;
+width:100%;
 }
