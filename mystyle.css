@@ -1,6 +1,6 @@
 body {
 
-	background-color: #d9effa;
+	background-color: #ebeffc;
 }
 
 h1 {
@@ -9,18 +9,19 @@ h1 {
 
 }
 
-jumbotron text-center {
-
-	color:red;
+#header {
+	text-align:center;
+	padding:60px;
+	color:blue;
+	background-color:#f5ae82;
 
 }
 
 #entry {
   padding:30px;
   margin:40px;
-  margin-right:40px;
   margin-left:60px;
-  background-color: #fcefca;
+  background-color: #ffddc2;
   transition: transform .2s; /* Animation */
   border-radius: 10px;
 
@@ -31,21 +32,22 @@ jumbotron text-center {
 }
 #entry-holder{
 background-color:lightblue;
-
+margin-top:20px;
+margin-bottom:20px;
 }
 #media{
 margin:40px;
 }
 #section_header{
 	text-align: center;
-	color: coral;
+	color: #d17436;
 	padding: 60px;
 }
 
 #navbar{
+	position:top;
     text-align: center;
 	background-color: lightblue;
-    margin:15px auto;
 	padding: 5px;
 }
 #menu-item{
@@ -83,4 +85,5 @@ position: fixed;
 left:0;
 bottom:0;
 width:100%;
+margin-top:30;
 }
